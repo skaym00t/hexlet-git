@@ -1,1 +1,10 @@
 export PATH=$PATH:/path/to/directory #добавить исполняемый файл в путь
+python3 -m pip install --user git+https://github.com/_____/____.git #установка приложения с репозитория GIT или любого другого
+sudo apt install python3-pip #установка инсталлятора pip
+python3 -m pip install --user --index-url https://test.pypi.org/simple dogesay #установка приложения с индекса(сайт)
+python3 -m pip install --user cowsay #установка приложения с пакетного менеджера
+sudo apt uodate #обновить приложения
+sudo apt install python3-venv #установка модуля виртуального окружения
+python3 -m venv first_venv #создание виртуального окружения
+first_venv/bin/pip install cowsay #установка пакета cowsay в виртуальное окружение
+first_venv/bin/cowsay -t hello #запуск пакета cowsay в виртуальном окружении
