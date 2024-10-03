@@ -12,10 +12,11 @@ source first_venv/bin/activate #активация виртуального ок
 deactivate #деактивация виртуального окружения
 pip install ipython --user #оболочка для python в ubuntu
 
-КРАТКАЯ ХРОНОЛОГИЯ СОЗДАНИЯ ПРОЕКТА И ДОБАВЛЕНИЯ ЕГО В РЕПОЗИТОРИЙ:
+КРАТКАЯ ХРОНОЛОГИЯ ДОБАВЛЕНИЯ ПРОЕКТА В РЕПОЗИТОРИЙ GIT:
 
 1. Создаем ПУСТОЙ репозитроий на гитхаб
 2. В папке созданного проекта рабочей дерриктории:
+git init
 git remote add origin git@github.com:<ИМЯ НА ГИТ>/<НАЗВАНИЕ РЕПОЗИТОРИЯ НА GIT>
 git branch -M main
 git push -u origin main
