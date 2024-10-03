@@ -12,6 +12,12 @@ source first_venv/bin/activate #активация виртуального ок
 deactivate #деактивация виртуального окружения
 pip install ipython --user #оболочка для python в ubuntu
 
+Установка GIT и SSH ключей: https://github.com/Hexlet/ru-instructions/blob/main/git.md
+
+Перечень наиболее часто-используемых команд в Linux: https://white55.ru/cmdmain.html
+
+Инструкция по созданию собственных команд bash(алиасы): https://habr.com/ru/companies/poiskvps/articles/420347/
+
 КРАТКАЯ ХРОНОЛОГИЯ ДОБАВЛЕНИЯ ПРОЕКТА В РЕПОЗИТОРИЙ GIT:
 
 1. Создаем ПУСТОЙ репозитроий на гитхаб
