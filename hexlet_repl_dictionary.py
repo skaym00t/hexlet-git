@@ -13,3 +13,23 @@ def count_all(item):
     return count_dict
 
 print(count_all("hello"))
+
+
+#Цель упражнения — написать функцию collect_indexes(). Эта функция должна:
+
+#Принимать на вход коллекцию — некий итератор или итерируемый элемент
+#Возвращать словарь или подобную ему коллекцию. Ключом будет элемент коллекции, а значением для ключа — список индексов коллекции, по которым встречается этот элемент
+#d = collect_indexes("hello")
+#d["h"]  # [0]
+#d["e"]  # [1]
+#d["l"]  # [2, 3]
+
+def collect_indexes(item):
+    d = {}
+    start_index = 0
+    for i in item:
+        d.setdefault(i, []).append(item.index(i, start_index))
+        start_index += 1
+    return d
+
+print(collect_indexes("hello"))
